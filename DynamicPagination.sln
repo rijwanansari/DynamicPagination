@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35122.118
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DynamicPagination", "DynamicPagination\DynamicPagination\DynamicPagination.csproj", "{85CE2A42-8E8E-462A-AC28-1832C92971B7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DynamicPagination.Client", "DynamicPagination\DynamicPagination.Client\DynamicPagination.Client.csproj", "{C4F40474-6D15-485B-BD70-DEB4178315BC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{85CE2A42-8E8E-462A-AC28-1832C92971B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{85CE2A42-8E8E-462A-AC28-1832C92971B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{85CE2A42-8E8E-462A-AC28-1832C92971B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{85CE2A42-8E8E-462A-AC28-1832C92971B7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C4F40474-6D15-485B-BD70-DEB4178315BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4F40474-6D15-485B-BD70-DEB4178315BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4F40474-6D15-485B-BD70-DEB4178315BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4F40474-6D15-485B-BD70-DEB4178315BC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3F5ABDDB-3AB2-4718-AEB9-EC690E6BF02E}
+	EndGlobalSection
+EndGlobal

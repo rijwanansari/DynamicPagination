@@ -1,0 +1,33 @@
+﻿@page "/"
+@using DynamicPagination.Components.Shared
+@using DynamicPagination.Model
+@inject ProductService ProductService
+@rendermode RenderMode.InteractiveServer
+
+<h3>Product List</h3>
+
+<PaginationComponent TItem="Product" Items="Products" DefaultPageSize="10">
+    <ChildContentHeader>
+        <tr>
+            <th>Id</th>
+            <th>Name</th>
+            <th>Price</th>
+        </tr>
+    </ChildContentHeader>
+    <ChildContentRow Context="product">
+        <tr>
+            <td>@product.Id</td>
+            <td>@product.Name</td>
+            <td>@product.Price</td>
+        </tr>
+    </ChildContentRow>
+</PaginationComponent>
+
+@code {
+    private List<Product> Products;
+
+    protected override void OnInitialized()
+    {
+        Products = ProductService.GetProducts();
+    }
+}
